@@ -909,7 +909,7 @@ var pd = {
           pd.task.after = pd.task.items[0].data.name;
           pd.actions.children.handleSingle();
         }
-      }, 5000);
+      }, 10000);
     },
     edit: function (item) {
       setTimeout(() => {
